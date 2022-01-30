@@ -1,13 +1,12 @@
 /*========================================
             Common-Css
 ========================================*/
+.container{
+    margin-bottom: 50px;
+}
 img{
     width: 100%;
 }
-
-
-
-
 /*========================================
              Header-Css
 ========================================*/
@@ -28,17 +27,130 @@ nav img{
     border: none;
 }
 /*========================================
-            Smartphone-Css
+    Smartphone-Css and  Laptop-Css
 ========================================*/
-
-/*========================================
-            Laptop-Css
-========================================*/
-
+.title{
+    margin: 20px auto;
+}
+.title a{
+    text-decoration: none;
+    color: #FF9D00;
+}
+.col{
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(216, 214, 214);
+}
+.h-100{
+    border: none;
+}
+.card-footer{
+    background-color: #FFFFFF;
+    border-top: none;
+    padding: 20px;
+}
+.card-footer p{
+    font-size: 25px;
+}
 /*========================================
             Categories-Css
 ========================================*/
-
+.cat-small-img{
+    width: 200px;
+    box-shadow: 4px 4px 6px rgb(224, 224, 230),-2px -2px 4px rgb(235, 235, 240);
+    border-radius: 7px;
+    margin: 30px;
+    padding: 10px;
+}
 /*========================================
-
+           footer-css
+========================================*/
+.footer-area .container{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+footer{
+    background-color: #081621;
+    padding: 50px 5px 5px 5px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px;
+}
+footer h6{
+    color: white;
+}
+footer p{
+    color: #666666;
+}
+footer li{
+    margin-top: 20px;
+}
+footer li a{
+    text-decoration: none;
+    color: #666666;
+}
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.contract{
+    width: 95%;
+    height: 70px;
+    border: 1px solid #666666;
+    border-radius: 50px;
+    margin: 20px auto;
+    display: flex; 
+    cursor: pointer;  
+}
+.contract:hover{
+    border: 1px solid red;
+}
+.contract h5{
+    color: red;
+}
+.icon{
+    width: 23%;
+    border: 1px none none;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.line{
+    width: 0.5%;
+    height: 50px;
+    background-color: #666666;
+    margin-top: 7px;
+}
+.text{
+    width: 75%;
+    border: none;
+    padding: 10px;
+}
+.text p,h5{
+   margin: 0;
+}
+.email-link{
+    text-decoration: none;
+    color: red;
+}
+.social-media a{
+    font-size: 50px;
+    margin: 10px;
+    color: #666666;
+}
+.social-media a:hover{
+    color: #3749BB;
+}
+.copyright{
+    width: 95%;
+    margin: 30px 2.5% 5px 2.5%;
+    border-top: 1px solid #666666;
+    padding: 10px 0px 0px 0px;
+}
+.copyright a{
+    text-decoration: none;
+    color: red;
+}
+/*========================================
+           css - End
 ========================================*/
