@@ -152,5 +152,17 @@ footer a:hover{
     color: red;
 }
 /*========================================
+            responsive
+========================================*/
+@media only screen and (min-width:250px) and (max-width:991px){
+    .carousel-row{padding: 0px 30px;}
+}
+
+/*========================================
            css - End
 ========================================*/
+
+
+
+
+
